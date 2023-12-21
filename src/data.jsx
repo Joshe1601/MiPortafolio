@@ -30,28 +30,28 @@ import Theme10 from './assets/yellow.png';
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Inicio',
     icon: <FaHome className='nav__icon' />,
     path: '/',
   },
 
   {
     id: 2,
-    name: 'About',
+    name: 'Sobre mí',
     icon: <FaUser className='nav__icon' />,
     path: '/about',
   },
 
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Portafolio',
     icon: <FaFolderOpen className='nav__icon' />,
     path: '/portfolio',
   },
 
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contacto',
     icon: <FaEnvelopeOpen className='nav__icon' />,
     path: '/contact',
   },
