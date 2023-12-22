@@ -24,6 +24,7 @@
     font-size: var(--h1-font-size);
     line-height: 1.24;
     padding-left: 70px;
+    z-index: -1;
 }
 
 .home__title span {
@@ -39,6 +40,14 @@
     height: 5px;
     border-radius: 10px;
     background-color: var(--first-color);
+}
+
+.home__subtitle {
+    position: relative;
+    font-size: var(--h2-font-size);
+    line-height: 1.24;
+    padding-left: 70px;
+    z-index: -1;
 }
 
 .home__description {

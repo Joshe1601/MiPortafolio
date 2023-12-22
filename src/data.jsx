@@ -5,7 +5,7 @@ import {
   FaEnvelopeOpen,
   FaBriefcase,
   FaGraduationCap,
-  FaCode,
+  FaCode, FaHtml5, FaJs, FaJava,
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
@@ -26,6 +26,19 @@ import Theme7 from './assets/yellowgreen.png';
 import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
+
+import {
+  SiCss3,
+  SiFacebook, SiGithub,
+  SiGooglecloud, SiHtml5,
+  SiJquery, SiLinkedin,
+  SiMicrosoftazure,
+  SiMongodb,
+  SiNodedotjs,
+  SiPostgresql,
+  SiSpring, SiWhatsapp
+} from "react-icons/si";
+import {GrMysql} from "react-icons/gr";
 
 export const links = [
   {
@@ -60,89 +73,85 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Steve',
+    title: 'Nombres : ',
+    description: 'Jose Luis',
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Milner',
+    title: 'Apellidos : ',
+    description: 'Morillos Pinedo',
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '27 Years',
+    title: 'Edad : ',
+    description: '22 años',
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Tunisian',
+    title: 'Nacionalidad : ',
+    description: 'Peruana',
   },
 
   {
     id: 5,
     title: 'Freelance : ',
-    description: 'Available',
+    description: 'Disponible',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: 'Sitio : ',
+    description: 'Lima',
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
+    title: 'Número : ',
+    description: '+51 903065898',
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'you@mail.com',
+    title: 'Correo : ',
+    description: 'jmorillosp161@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Idiomas : ',
+    description: 'Español Nativo, Inglés B1, Italiano A1',
   },
 ];
 
 export const stats = [
+
   {
     id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
+    no: <SiLinkedin/>,
+    title: '<strong>Linkedin</strong> <br /> <a href="https://www.linkedin.com/in/jmorillosp161/">/jmorillosp161</a>',
   },
 
   {
     id: 2,
-    no: '97+',
-    title: 'Completed <br /> Projects',
+    no: <SiGithub/>,
+    title: '<strong>GitHub</strong> <br /> <a href="https://github.com/Joshe1601">/Joshe1601</a>',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: <SiWhatsapp/>,
+    title: '<strong>Whatsapp</strong> <br /> <a href="https://wa.me/+51951805121">/+51951805121</a>',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: <SiFacebook/>,
+    title: '<strong>Facebook</strong> <br /> <a href="https://www.facebook.com/jmorillospinedo/">/jmorillospinedo</a>',
   },
+
 ];
 
 export const resume = [
@@ -204,50 +213,86 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    icon: <FaJava />,
+    title: 'Java',
+    percentage: '82',
   },
 
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    icon: <SiSpring />,
+    title: 'Spring',
+    percentage: '75',
   },
 
   {
     id: 3,
+    icon: <SiHtml5 />,
+    title: 'Html',
+    percentage: '80',
+  },
+
+  {
+    id: 4,
+    icon: <SiCss3 />,
     title: 'Css',
     percentage: '70',
   },
 
   {
-    id: 4,
-    title: 'Php',
-    percentage: '66',
-  },
-
-  {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    icon: <FaJs />,
+    title: 'Javascript',
+    percentage: '55',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    icon: <SiNodedotjs />,
+    title: 'NodeJS',
+    percentage: '24',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    icon: <SiJquery />,
+    title: 'JQuery',
+    percentage: '22',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    icon: <GrMysql />,
+    title: 'MySQL',
+    percentage: '62',
+  },
+
+  {
+    id: 9,
+    icon: <SiPostgresql />,
+    title: 'PostgreSQL',
+    percentage: '25',
+  },
+
+  {
+    id: 10,
+    icon: <SiMongodb />,
+    title: 'MongoDB',
+    percentage: '8',
+  },
+
+  {
+    id: 11,
+    icon: <SiGooglecloud />,
+    title: 'Google Cloud',
+    percentage: '8',
+  },
+
+  {
+    id: 12,
+    icon: <SiMicrosoftazure />,
+    title: 'Microsoft Azure',
+    percentage: '8',
   },
 ];
 

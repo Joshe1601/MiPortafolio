@@ -9,10 +9,11 @@ const Home = () => {
             <img src={Profile} alt="" className="home__img"/>
             <div className="home__content">
                 <div className="home__data">
-                    <h1 className="home__title"><span>Hola, soy Jose Morillos. </span>Desarrollador web jr.</h1>
-                    {/*<h3 className="home__subtitle">Full Stack Developer</h3>*/}
-                    <p className="home__description">I am a full stack developer with a passion for developing web applications.
-                        I am currently working as a freelancer and looking for a full-time job.</p>
+                    <h1 className="home__title"><span>Hola, soy Jose Morillos. </span></h1>
+                    <h2 className="home__subtitle">Full Stack Junior Developer</h2>
+                    <p className="home__description">Soy un programador full stack apasionado por el desarrollo de aplicaciones web.
+                        Actualmente estudio en la Pontificia Universidad Católica del Perú y
+                        busco un trabajo de medio tiempo o tiempo completo.</p>
                     <Link to="/about" className="button">
                         Más sobre mí <span className="button__icon"><FaArrowRight/></span>
                     </Link>
