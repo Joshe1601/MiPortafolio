@@ -159,54 +159,63 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: 'abril 2023 - julio 2023',
+    title: 'Desarrollo web Full Stack <span> Pontificia Universidad Católica del Perú </span>',
+    desc: 'Desarrollo de una página web e-commerce de compra y venta de videojuegos implementando Jakarta EE (Java) para el Back-End; HTML, CSS y Bootstrap para el Front-End; MySQL para la base de datos y Google Cloud Platform para el despliegue utilizando el servidor web Tomcat Apache.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'agosto 2023 - diciembre 2023',
+    title: 'Desarrollo web Full Stack <span> Pontificia Universidad Católica del Perú </span>',
+    desc: 'Desarrollo de una página web de análisis y gestión de inventarios de equipos implementando una API Rest y lógica en Spring Framework (Java) para el Back-End; HTML, JavaScript, CSS y Bootstrap para el Front-End; MySQL para la base de datos y Google Cloud Platform para el uso de Google Maps API, Cloud Storage, Big Query, Zona DNS y despliegue utilizando el servidor web Http Apache.',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: 'agosto 2023 - diciembre 2023',
+    title: 'Desarrollo web Full Stack <span> Pontificia Universidad Católica del Perú </span>',
+    desc: 'Desarrollo de una página web de análisis y gestión de inventarios de equipos implementando una API Rest y lógica en Spring Framework (Java) para el Back-End; HTML, JavaScript, CSS y Bootstrap para el Front-End; MySQL para la base de datos y Google Cloud Platform para el uso de Google Maps API, Cloud Storage, Big Query, Zona DNS y despliegue utilizando el servidor web Http Apache.',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: 'abril 2019 - presente',
+    title: 'Ing. de Telecomunicaciones <span> Pregrado </span>',
+    desc: ' Estudiante del décimo ciclo de la Pontificia Universidad Católica del Perú ',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: 'mayo 2020 - agosto 2021',
+    title: 'Matemáticas <span> Pregrado </span>',
+    desc: 'Estudiante del quinto ciclo de la Universidad Nacional Mayor de San Marcos',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: 'septiembre 2023 - diciembre 2023',
+    title: 'Desarrollo Web <span> Formaciones </span>',
+    desc: 'Estudiante del Programa Oracle Next Education F2 T5 y seleccionado como "ALumniONE" al completar los siguientes módulos:',
+  },
+
+  {
+    id: 7,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: 'octubre 2023 - diciembre 2023',
+    title: 'Conocimientos en la nube <span> Desafío Formativo </span>',
+    desc: 'Estudiante del desafío de GitHub Universe Cloud Skills Challenge, el cual fue un programa elaborado por Microsoft Learn',
   },
 ];
 
@@ -285,14 +294,14 @@ export const skills = [
     id: 11,
     icon: <SiGooglecloud />,
     title: 'Google Cloud',
-    percentage: '8',
+    percentage: '42',
   },
 
   {
     id: 12,
     icon: <SiMicrosoftazure />,
     title: 'Microsoft Azure',
-    percentage: '8',
+    percentage: '12',
   },
 ];
 
