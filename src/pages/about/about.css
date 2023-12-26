@@ -54,6 +54,11 @@
     background-color: var(--text-color);
 }
 
+.stats__title a{
+    color: var(--first-color);
+    font-weight: var(--weight-700);
+}
+
 .separator {
     border-top: 1px solid var(--border-color);
     max-width: 45%;

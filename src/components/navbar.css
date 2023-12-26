@@ -42,7 +42,7 @@
     border-radius: 10px;
     background-color: var(--container-color);
     padding: 12px 10px;
-
+    z-index: 100;
 }
 
 .nav__toggle span {
@@ -95,6 +95,10 @@
         height: 50px;
         border-radius: 50%;
         position: relative;
+    }
+
+    .dark-theme .nav__link{
+        background-color: hsl(0, 0%, 20%);
     }
 
     .nav__icon {
