@@ -28,14 +28,14 @@ import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
 import {
-  SiCss3,
-  SiFacebook, SiGithub,
+  SiCss3, SiExpress,
+  SiFacebook, SiGit, SiGithub,
   SiGooglecloud, SiHtml5,
   SiJquery, SiLinkedin,
   SiMicrosoftazure,
   SiMongodb,
   SiNodedotjs,
-  SiPostgresql,
+  SiPostgresql, SiReact,
   SiSpring, SiWhatsapp
 } from "react-icons/si";
 import {GrMysql} from "react-icons/gr";
@@ -50,7 +50,7 @@ export const links = [
 
   {
     id: 2,
-    name: 'Sobre mí',
+    name: 'Información',
     icon: <FaUser className='nav__icon' />,
     path: '/about',
   },
@@ -222,52 +222,88 @@ export const resume = [
 export const skills = [
   {
     id: 1,
+    icon: <SiGooglecloud />,
+    title: 'Google Cloud',
+    percentage: '42',
+  },
+
+  {
+    id: 2,
+    icon: <SiMicrosoftazure />,
+    title: 'Microsoft Azure',
+    percentage: '12',
+  },
+
+  {
+    id: 3,
     icon: <FaJava />,
     title: 'Java',
     percentage: '82',
   },
 
   {
-    id: 2,
+    id: 4,
     icon: <SiSpring />,
     title: 'Spring',
     percentage: '75',
   },
 
   {
-    id: 3,
+    id: 5,
     icon: <SiHtml5 />,
     title: 'Html',
     percentage: '80',
   },
 
   {
-    id: 4,
+    id: 6,
     icon: <SiCss3 />,
     title: 'Css',
     percentage: '70',
   },
 
   {
-    id: 5,
+    id: 7,
     icon: <FaJs />,
     title: 'Javascript',
     percentage: '55',
   },
 
   {
-    id: 6,
+    id: 8,
+    icon: <SiJquery />,
+    title: 'JQuery',
+    percentage: '22',
+  },
+
+  {
+    id: 9,
     icon: <SiNodedotjs />,
     title: 'NodeJS',
     percentage: '24',
   },
 
   {
-    id: 7,
-    icon: <SiJquery />,
-    title: 'JQuery',
-    percentage: '22',
+    id: 10,
+    icon: <SiReact />,
+    title: 'ReactJS',
+    percentage: '24',
   },
+
+  {
+    id: 11,
+    icon: <SiExpress />,
+    title: 'ExpressJS',
+    percentage: '24',
+  },
+
+  {
+    id: 11,
+    icon: <SiGit />,
+    title: 'Git',
+    percentage: '24',
+  },
+
 
   {
     id: 8,
@@ -290,19 +326,7 @@ export const skills = [
     percentage: '8',
   },
 
-  {
-    id: 11,
-    icon: <SiGooglecloud />,
-    title: 'Google Cloud',
-    percentage: '42',
-  },
 
-  {
-    id: 12,
-    icon: <SiMicrosoftazure />,
-    title: 'Microsoft Azure',
-    percentage: '12',
-  },
 ];
 
 export const portfolio = [

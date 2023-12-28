@@ -6,6 +6,7 @@
     width: 100%;
     padding: 60px 30px;
     transition: all .5s cubic-bezier(.75,.2,.05,1);
+    z-index: 100;
 }
 
 .show-menu {
@@ -81,6 +82,7 @@
         right: 30px;
         display: flex;
         align-items: center;
+        z-index: 100;
     }
 
     .nav__item{
@@ -98,7 +100,7 @@
     }
 
     .dark-theme .nav__link{
-        background-color: hsl(0, 0%, 20%);
+        border-color: hsl(0, 0%, 20%);
     }
 
     .nav__icon {
@@ -121,6 +123,10 @@
         visibility: hidden;
         z-index: -1;
         transition: all .3s ease;
+    }
+
+    .nav__name h3{
+        display: flex;
     }
 
     .nav__link:hover .nav__name{

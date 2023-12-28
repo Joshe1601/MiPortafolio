@@ -6,7 +6,7 @@
 :root{
     /*-----Colors-----*/
     --first-color: hsl(271, 76%, 53%);
-    --bei-color: hsl(242, 94%, 55%);
+    --danger-color: hsl(0, 100%, 63%);
     --title-color: hsl(0, 0%, 40%);
     --text-color: hsl(0, 0%, 50%);
     --body-color: hsl(0, 0%, 100%);
@@ -43,6 +43,21 @@
     --body-color: hsl(0, 0%, 7%);
     --container-color: hsl(0, 1%, 17%);
     --border-color: hsl(0, 0%, 15%);
+}
+
+/*-----Media Queries-----*/
+@media screen and (max-width: 1200px){
+    :root{
+        --big-font-size: 36px;
+        --h1-font-size: 32px;
+        --h2-font-size: 24px;
+        --h3-font-size: 20px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 11px;
+    }
 }
 
 /*-----Base-----*/
@@ -133,6 +148,7 @@ img{
     position: relative;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 
 .button:hover{
@@ -154,6 +170,11 @@ img{
     transition: all .5s ease;
 }
 
+.button:disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
 .button__icon{
     background-color: var(--first-color);
     position: absolute;
@@ -167,4 +188,15 @@ img{
     line-height: 60px;
 }
 
+.alert {
+    padding-top: 8px;
+    border-radius: 5px;
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+    text-align: center;
+}
+
+.alert-danger{
+    color: var(--danger-color);
+}
 

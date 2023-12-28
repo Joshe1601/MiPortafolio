@@ -1,6 +1,6 @@
 import React from "react";
 import {skills} from "../data.jsx";
-import { CircularProgressbar} from "react-circular-progressbar";
+import {CircularProgressbarWithChildren} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const Skills = () => {
@@ -10,12 +10,10 @@ const Skills = () => {
                 return (
                     <div className="progress__box" key={index}>
                         <div className="progress__circle">
-                            <CircularProgressbar
-                                strokeWidth={7} value={parseInt(percentage)}
-                                text={`${percentage}%`} />
+                            <CircularProgressbarWithChildren strokeWidth={7} value={100}>
+                                <p className="skills__icon">{icon}</p>
+                            </CircularProgressbarWithChildren>
                         </div>
-
-                        <p className="skills__icon">{icon}</p>
                         <h3 className="skills__title">{title}</h3>
                     </div>
                 )
