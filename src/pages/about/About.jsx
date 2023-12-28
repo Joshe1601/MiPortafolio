@@ -6,7 +6,7 @@ import ResumeItem from "../../components/ResumeItem";
 import {resume} from "../../data.jsx";
 import {FaDownload} from "react-icons/fa";
 import CV from "../../assets/CV Jose Morillos.pdf";
-import "./About.css";
+import "./about.css";
 
 const About = () => {
     return (
