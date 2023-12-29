@@ -8,6 +8,9 @@ const Home = () => {
         <section className="home section grid">
             <img src={Profile} alt="" className="home__img"/>
             <div className="home__content">
+                <div className="home__icon">
+                    <img src="/src/assets/favicon.png" alt=""/>
+                </div>
                 <div className="home__data">
                     <h1 className="home__title"><span>Hola, soy Jose Morillos. </span></h1>
                     <h2 className="home__subtitle">Full Stack Developer</h2>

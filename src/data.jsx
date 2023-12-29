@@ -29,7 +29,7 @@ import Theme10 from './assets/yellow.png';
 
 import {
   SiCss3, SiExpress,
-  SiFacebook, SiGit, SiGithub,
+  SiFacebook, SiFirebase, SiGit, SiGithub,
   SiGooglecloud, SiHtml5,
   SiJquery, SiLinkedin,
   SiMicrosoftazure,
@@ -206,7 +206,10 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: 'septiembre 2023 - diciembre 2023',
     title: 'Desarrollo Web <span> Formaciones </span>',
-    desc: 'Estudiante del Programa Oracle Next Education F2 T5 y seleccionado como "ALumniONE" al completar los siguientes módulos:',
+    desc: 'Estudiante del Programa Oracle Next Education y seleccionado como "ALumniONE" al completar los siguientes módulos: <br>' +
+        '- Formación en Java y Spring | septiembre 2023 - octubre 2023 <br>' +
+        '- Formación en SQL con MySQL | noviembre 2023 - presente <br>' +
+        '- Formación en Data Science | noviembre 2023 - presente <br>',
   },
 
   {
@@ -215,7 +218,8 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: 'octubre 2023 - diciembre 2023',
     title: 'Conocimientos en la nube <span> Desafío Formativo </span>',
-    desc: 'Estudiante del desafío de GitHub Universe Cloud Skills Challenge, el cual fue un programa elaborado por Microsoft Learn',
+    desc: 'Estudiante del desafío de GitHub Universe Cloud Skills Challenge, elaborado por Microsoft' +
+        'en la plataforma de Microsoft Learn',
   },
 ];
 
@@ -229,76 +233,83 @@ export const skills = [
 
   {
     id: 2,
+    icon: <SiFirebase />,
+    title: 'Google Firebase',
+    percentage: '42',
+  },
+
+  {
+    id: 3,
     icon: <SiMicrosoftazure />,
     title: 'Microsoft Azure',
     percentage: '12',
   },
 
   {
-    id: 3,
+    id: 4,
     icon: <FaJava />,
     title: 'Java',
     percentage: '82',
   },
 
   {
-    id: 4,
+    id: 5,
     icon: <SiSpring />,
     title: 'Spring',
     percentage: '75',
   },
 
   {
-    id: 5,
+    id: 6,
     icon: <SiHtml5 />,
     title: 'Html',
     percentage: '80',
   },
 
   {
-    id: 6,
+    id: 7,
     icon: <SiCss3 />,
     title: 'Css',
     percentage: '70',
   },
 
   {
-    id: 7,
+    id: 8,
     icon: <FaJs />,
     title: 'Javascript',
     percentage: '55',
   },
 
   {
-    id: 8,
+    id: 9,
     icon: <SiJquery />,
     title: 'JQuery',
     percentage: '22',
   },
 
   {
-    id: 9,
+    id: 10,
     icon: <SiNodedotjs />,
     title: 'NodeJS',
     percentage: '24',
   },
 
   {
-    id: 10,
+    id: 11,
     icon: <SiReact />,
     title: 'ReactJS',
     percentage: '24',
   },
 
   {
-    id: 11,
+    id: 12,
     icon: <SiExpress />,
     title: 'ExpressJS',
     percentage: '24',
   },
 
   {
-    id: 11,
+    id: 13,
     icon: <SiGit />,
     title: 'Git',
     percentage: '24',
