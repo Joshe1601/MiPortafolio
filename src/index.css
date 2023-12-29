@@ -151,6 +151,10 @@
         margin-top: auto;
     }
 
+    .home__icon{
+        display: none;
+    }
+
     .home__content{
         max-width: 500px;
         text-align: center;
@@ -249,6 +253,10 @@
     .home__content{
         margin-block: auto;
         text-align: left;
+    }
+
+    .home__icon{
+        display: flex;
     }
 
     .home__title{
