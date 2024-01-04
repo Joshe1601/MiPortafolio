@@ -8,6 +8,7 @@ import Home from "./pages/home/Home.jsx";
 import About from "./pages/about/About.jsx";
 import Portafolio from "./pages/portafolio/Portafolio.jsx";
 import Contact from "./pages/contact/Contact.jsx";
+import Comments from "./pages/comments/Comments.jsx";
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
     <Themes/>
     <Routes>
       <Route index element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="portfolio" element={<Portafolio/>}/>
-        <Route path="contact" element={<Contact/>}/>
+      <Route path="about" element={<About/>}/>
+      <Route path="portfolio" element={<Portafolio/>}/>
+      <Route path="contact" element={<Contact/>}/>
+      {/*<Route path="comments" element={<Comments/>} />*/}
     </Routes>
   </BrowserRouter>
 

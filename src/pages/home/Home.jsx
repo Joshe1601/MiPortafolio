@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "../../assets/home2.jpeg";
+import Icon from "../../assets/favicon.png"
 import {Link} from "react-router-dom";
 import {FaArrowRight} from "react-icons/fa";
 import "./home.css";
@@ -9,7 +10,7 @@ const Home = () => {
             <img src={Profile} alt="" className="home__img"/>
             <div className="home__content">
                 <div className="home__icon">
-                    <img src="/src/assets/favicon.png" alt=""/>
+                    <img src={Icon} alt=""/>
                 </div>
                 <div className="home__data">
                     <h1 className="home__title"><span>Hola, soy Jose Morillos. </span></h1>
