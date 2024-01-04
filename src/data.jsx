@@ -5,16 +5,14 @@ import {
   FaEnvelopeOpen,
   FaBriefcase,
   FaGraduationCap,
-  FaCode, FaHtml5, FaJs, FaJava,
+  FaCode, FaJs, FaJava,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import {FiFileText, FiUser, FiExternalLink, FiServer} from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import ErgoProxy from './assets/ergoproxy.png';
+import Texhnolyze from './assets/texhnolyze.jpeg';
+import Netflight from './assets/netflight.png';
+import Switch from './assets/switch.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -343,164 +341,112 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: 'Photo Editing',
+    img: ErgoProxy,
+    title: 'Ergo Proxy',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: 'Proyecto : ',
+        desc: 'E-Commerce de videojuegos',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Servidores : ',
+        desc: 'Tomcat Apache, Google Cloud Platform',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Lenguajes : ',
+        desc: 'Java JakartaEE, HTML, CSS, Javascript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'En construccion',
       },
     ],
   },
 
   {
     id: 2,
-    img: Work2,
-    title: 'Website Design',
+    img: Texhnolyze,
+    title: 'Texhnolyze',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
+        title: 'Proyecto : ',
+        desc: 'Sistema de gestión de equipos',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiServer />,
+        title: 'Servidores : ',
+        desc: 'Apache2, Tomcat Apache, Google Cloud Platform',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: 'Lenguajes : ',
+        desc: 'Java Spring, HTML, CSS, JavaScript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'En construccion',
       },
     ],
   },
 
   {
     id: 3,
-    img: Work3,
-    title: 'Video Editing',
+    img: Netflight,
+    title: 'Netflight',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: 'Proyecto : ',
+        desc: 'Clon de Netflix',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiServer/>,
+        title: 'Servidores : ',
+        desc: 'Firebase, Azure Blob Storage',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Lenguajes : ',
+        desc: 'React JS, Node JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'netflight.mptechprojects.com',
       },
     ],
   },
 
   {
     id: 4,
-    img: Work4,
-    title: 'Video Editing',
+    img: Switch,
+    title: 'Switch',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: 'Proyecto : ',
+        desc: 'Clon de Twitch',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Servidores : ',
+        desc: 'Firebase, NGINX, Microsoft Azure',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: 'Landing Page',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
+        title: 'Lenguajes : ',
         desc: 'React JS, Node JS',
       },
       {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
-
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'En construccion',
       },
     ],
   },
