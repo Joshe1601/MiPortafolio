@@ -95,10 +95,10 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__socials">
-                        <a href="https://www.facebook.com/jmorillospinedo/" className="contact__social-link">
+                        <a href="https://www.messenger.com/t/100001032341479/" className="contact__social-link">
                             <FaFacebookMessenger />
                         </a>
-                        <a href="https://wa.me/51903065898" className="contact__social-link">
+                        <a href="https://wa.me/51951805121" className="contact__social-link">
                             <FaWhatsapp />
                         </a>
                     </div>

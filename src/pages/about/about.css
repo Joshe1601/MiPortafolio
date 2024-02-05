@@ -71,7 +71,7 @@
 }
 
 .skills__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     row-gap: 48px;
 }
@@ -108,6 +108,13 @@
     font-weight: var(--weight-800);
     text-align: center;
     margin-top: 10px;
+}
+
+.progress__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .resume__item{
@@ -178,3 +185,44 @@
     line-height: 1.6;
     text-align: justify;
 }
+
+
+.certificates__container {
+    width: 100%;
+}
+
+.certificate__box{
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    background: var(--container-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    position: relative;
+    left: 25px;
+}
+
+.certificate__box object{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.certificate__box object a{
+    color: var(--first-color);
+    font-weight: var(--weight-700);
+}
+
+.certificate__data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.certificate__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-800);
+}
+
+

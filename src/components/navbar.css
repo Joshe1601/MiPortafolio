@@ -41,7 +41,7 @@
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    background-color: var(--container-color);
+    background-color: var(--nav-toggle-color);
     padding: 12px 10px;
     z-index: 100;
 }

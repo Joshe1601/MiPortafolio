@@ -22,6 +22,7 @@
     inset: 0;
     display: grid;
     place-items: center;
+    align-content: center;
     opacity: 0;
     transition: all .4s ease;
 }
@@ -32,14 +33,28 @@
 
 .portfolio__title{
     color: var(--text-white);
-    font-size: var(--large-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--weight-500);
+    margin-bottom: 18px;
     transform: translateY(-20px);
     transition: all .4s ease;
 }
 
 .portfolio__item:hover .portfolio__title{
     transform: translateY(0);
+}
+
+.portfolio__icons{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio__icon{
+    color: var(--text-white);
+    font-size: var(--h1-font-size);
+    transition: color .4s ease;
 }
 
 .portfolio__modal{

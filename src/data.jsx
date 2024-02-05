@@ -5,7 +5,7 @@ import {
   FaEnvelopeOpen,
   FaBriefcase,
   FaGraduationCap,
-  FaCode, FaJs, FaJava,
+  FaCode, FaJs, FaJava, FaBootstrap, FaReact, FaPython, FaFlask,
 } from 'react-icons/fa';
 import {FiFileText, FiUser, FiExternalLink, FiServer} from 'react-icons/fi';
 
@@ -13,6 +13,13 @@ import ErgoProxy from './assets/ergoproxy.png';
 import Texhnolyze from './assets/texhnolyze.jpeg';
 import Netflight from './assets/netflight.png';
 import Switch from './assets/switch.jpg';
+import Morito from './assets/Morito.png';
+import EchoText from './assets/EchoText.png';
+
+import ProgramaONE from './assets/ProgramaONE.pdf';
+import JavaOO from './assets/JavaOO.pdf';
+import PrinProg from './assets/PrinProg.pdf';
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -26,13 +33,14 @@ import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
 import {
+  SiAmazonaws,
   SiCss3, SiExpress,
   SiFacebook, SiFirebase, SiGit, SiGithub,
   SiGooglecloud, SiHtml5,
-  SiJquery, SiLinkedin,
+  SiJquery, SiLinkedin, SiMeta,
   SiMicrosoftazure,
-  SiMongodb,
-  SiNodedotjs,
+  SiMongodb, SiNginx,
+  SiNodedotjs, SiOpenai,
   SiPostgresql, SiReact,
   SiSpring, SiWhatsapp
 } from "react-icons/si";
@@ -176,8 +184,8 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: 'agosto 2023 - diciembre 2023',
-    title: 'Desarrollo web Full Stack <span> Pontificia Universidad Católica del Perú </span>',
-    desc: 'Desarrollo de una página web de análisis y gestión de inventarios de equipos implementando una API Rest y lógica en Spring Framework (Java) para el Back-End; HTML, JavaScript, CSS y Bootstrap para el Front-End; MySQL para la base de datos y Google Cloud Platform para el uso de Google Maps API, Cloud Storage, Big Query, Zona DNS y despliegue utilizando el servidor web Http Apache.',
+    title: 'Desarrollo web Back-End <span> Pontificia Universidad Católica del Perú </span>',
+    desc: 'Desarrollo de una página web de estadísticas deportivas implementando una API Rest en Django (Python) y PostgreSQL para la base de datos.',
   },
 
   {
@@ -186,7 +194,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: 'abril 2019 - presente',
     title: 'Ing. de Telecomunicaciones <span> Pregrado </span>',
-    desc: ' Estudiante del décimo ciclo de la Pontificia Universidad Católica del Perú ',
+    desc: ' Estudiante del octavo ciclo de la Pontificia Universidad Católica del Perú ',
   },
 
   {
@@ -216,8 +224,8 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: 'octubre 2023 - diciembre 2023',
     title: 'Conocimientos en la nube <span> Desafío Formativo </span>',
-    desc: 'Estudiante del desafío de GitHub Universe Cloud Skills Challenge, elaborado por Microsoft' +
-        'en la plataforma de Microsoft Learn',
+    desc: 'Estudiante del desafío de GitHub Universe Cloud Skills Challenge, elaborado por Microsoft ' +
+        ' en la plataforma de Microsoft Learn',
   },
 ];
 
@@ -226,110 +234,129 @@ export const skills = [
     id: 1,
     icon: <SiGooglecloud />,
     title: 'Google Cloud',
-    percentage: '42',
+    percentage: '100',
   },
 
   {
     id: 2,
     icon: <SiFirebase />,
     title: 'Google Firebase',
-    percentage: '42',
+    percentage: '100',
   },
 
   {
     id: 3,
     icon: <SiMicrosoftazure />,
     title: 'Microsoft Azure',
-    percentage: '12',
+    percentage: '100',
   },
 
   {
     id: 4,
+    icon: <SiAmazonaws />,
+    title: 'Amazon AWS',
+    percentage: '100',
+  },
+
+  {
+    id: 5,
     icon: <FaJava />,
     title: 'Java',
     percentage: '82',
   },
 
   {
-    id: 5,
+    id: 6,
     icon: <SiSpring />,
     title: 'Spring',
     percentage: '75',
   },
 
   {
-    id: 6,
+    id: 7,
     icon: <SiHtml5 />,
     title: 'Html',
     percentage: '80',
   },
 
   {
-    id: 7,
+    id: 8,
     icon: <SiCss3 />,
     title: 'Css',
     percentage: '70',
   },
 
   {
-    id: 8,
+    id: 9,
     icon: <FaJs />,
     title: 'Javascript',
     percentage: '55',
   },
 
   {
-    id: 9,
+    id: 10,
     icon: <SiJquery />,
     title: 'JQuery',
     percentage: '22',
   },
 
   {
-    id: 10,
+    id: 11,
     icon: <SiNodedotjs />,
     title: 'NodeJS',
     percentage: '24',
   },
 
   {
-    id: 11,
+    id: 12,
     icon: <SiReact />,
     title: 'ReactJS',
     percentage: '24',
   },
 
   {
-    id: 12,
+    id: 13,
     icon: <SiExpress />,
     title: 'ExpressJS',
     percentage: '24',
   },
 
   {
-    id: 13,
+    id: 14,
+    icon: <FaPython />,
+    title: 'Python',
+    percentage: '24',
+  },
+
+  {
+    id: 15,
+    icon: <FaFlask />,
+    title: 'Flask',
+    percentage: '24',
+  },
+  {
+    id: 16,
     icon: <SiGit />,
     title: 'Git',
     percentage: '24',
   },
 
-
   {
-    id: 8,
+    id: 17,
     icon: <GrMysql />,
     title: 'MySQL',
     percentage: '62',
   },
 
   {
-    id: 9,
+    id: 18,
     icon: <SiPostgresql />,
     title: 'PostgreSQL',
     percentage: '25',
   },
 
   {
-    id: 10,
+    id: 19,
     icon: <SiMongodb />,
     title: 'MongoDB',
     percentage: '8',
@@ -338,10 +365,61 @@ export const skills = [
 
 ];
 
+export const certificates = [
+  {
+    id: 1,
+    pdf: ProgramaONE,
+    title: 'Oracle Next Education - Programa ONE',
+  },
+
+  {
+    id: 2,
+    pdf: JavaOO,
+    title: 'Oracle Next Education - Java Orientado a Objetos',
+  },
+
+  {
+    id: 3,
+    pdf: PrinProg,
+    title: 'Oracle Next Education - Principios de Programación',
+  },
+  {
+    id: 1,
+    pdf: ProgramaONE,
+    title: 'Oracle Next Education - Programa ONE',
+  },
+
+  {
+    id: 2,
+    pdf: JavaOO,
+    title: 'Oracle Next Education - Java Orientado a Objetos',
+  },
+
+  {
+    id: 3,
+    pdf: PrinProg,
+    title: 'Oracle Next Education - Principios de Programación',
+  },
+    ]
+
 export const portfolio = [
   {
     id: 1,
     img: ErgoProxy,
+    icons: [
+        {
+        icon : <FaJava/>,
+        },
+      {
+        icon : <FaBootstrap/>,
+      },
+      {
+        icon : <GrMysql/>,
+      },
+      {
+        icon : <SiGooglecloud/>,
+      },
+    ],
     title: 'Ergo Proxy',
     details: [
       {
@@ -356,7 +434,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Lenguajes : ',
+        title: 'Tecnologías : ',
         desc: 'Java JakartaEE, HTML, CSS, Javascript',
       },
       {
@@ -370,6 +448,26 @@ export const portfolio = [
   {
     id: 2,
     img: Texhnolyze,
+    icons: [
+        {
+          icon : <FaJava/>,
+        },
+      {
+        icon : <SiSpring/>,
+      },
+      {
+        icon : <FaBootstrap/>,
+      },
+      {
+        icon : <FaJs/>,
+      },
+      {
+        icon : <GrMysql/>,
+      },
+      {
+        icon : <SiGooglecloud/>,
+      },
+    ],
     title: 'Texhnolyze',
     details: [
       {
@@ -384,7 +482,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Lenguajes : ',
+        title: 'Tecnologías : ',
         desc: 'Java Spring, HTML, CSS, JavaScript',
       },
       {
@@ -399,6 +497,17 @@ export const portfolio = [
     id: 3,
     img: Netflight,
     title: 'Netflight',
+    icons: [
+      {
+        icon : <FaReact/>,
+      },
+      {
+        icon : <SiFirebase/>,
+      },
+      {
+        icon : <SiMicrosoftazure/>,
+      }
+    ],
     details: [
       {
         icon: <FiFileText />,
@@ -412,7 +521,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Lenguajes : ',
+        title: 'Tecnologías : ',
         desc: 'React JS, Node JS',
       },
       {
@@ -427,6 +536,20 @@ export const portfolio = [
     id: 4,
     img: Switch,
     title: 'Switch',
+    icons: [
+      {
+        icon : <FaReact/>,
+      },
+      {
+        icon : <SiFirebase/>,
+      },
+      {
+        icon : <SiMicrosoftazure/>,
+      },
+      {
+        icon : <SiNginx/>,
+      }
+    ],
     details: [
       {
         icon: <FiFileText />,
@@ -440,7 +563,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Lenguajes : ',
+        title: 'Tecnologías : ',
         desc: 'React JS, Node JS',
       },
       {
@@ -450,6 +573,94 @@ export const portfolio = [
       },
     ],
   },
+
+  {
+    id: 5,
+    img: Morito,
+    title: 'Morito Bot',
+    icons: [
+      {
+        icon : <FaPython/>,
+      },
+      {
+        icon : <SiFirebase/>,
+      },
+      {
+        icon : <SiMicrosoftazure/>,
+      },
+      {
+          icon : <SiMeta/>,
+      },
+      {
+          icon : <SiOpenai/>,
+      },
+    ],
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Proyecto : ',
+        desc: 'Chatbot implementado en Whatsapp',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Servidores : ',
+        desc: 'Firebase, Microsoft Azure, Whatsapp Cloud, OpenAI API',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Tecnologías : ',
+        desc: 'Python, Flask',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'moritobot.mptechprojects.com/',
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    img: EchoText,
+    title: 'EchoText',
+    icons: [
+      {
+        icon : <FaPython/>,
+      },
+      {
+        icon : <FaFlask/>,
+      },
+      {
+        icon : <SiMicrosoftazure/>,
+      },
+      {
+        icon : <SiOpenai/>,
+      },
+    ],
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Proyecto : ',
+        desc: 'Reconocimiento de voz con Python',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Servidores : ',
+        desc: 'Firebase, Microsoft Azure, OpenAI',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Tecnologías : ',
+        desc: 'Python, Flask',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'En construccion',
+      },
+    ],
+  },
+
 ];
 
 export const themes = [

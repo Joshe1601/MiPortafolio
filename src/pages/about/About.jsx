@@ -6,7 +6,8 @@ import ResumeItem from "../../components/ResumeItem";
 import {resume} from "../../data.jsx";
 import {FaDownload} from "react-icons/fa";
 import CV from "../../assets/CV Jose Morillos.pdf";
-import "./About.css";
+import "./about.css";
+import Certificates from "../../components/Certificates.jsx";
 
 const About = () => {
     return (
@@ -71,6 +72,16 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+ {/*           <div className="separator"></div>
+
+            <section className="certificates">
+                <h3 className="section__subtitle subtitle__center">Certificados</h3>
+
+                <div className="certificates__container">
+                    <Certificates/>
+                </div>
+            </section>*/}
         </main>
     );
 }

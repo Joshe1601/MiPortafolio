@@ -4,6 +4,13 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .certificate__box{
+        width: 500px;
+        left: 110px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .grid {
         gap: 20px;
@@ -20,8 +27,6 @@
     .home__description{
         font-size: var(--small-font-size);
     }
-
-
 
     .stats__title::before{
         width: 22px;
@@ -71,6 +76,11 @@
     .form__input-div{
         margin-bottom: 24px;
     }
+
+    .certificate__box{
+        width: 400px;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -108,7 +118,7 @@
     }
 
     .skills__container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .resume__container{
@@ -130,6 +140,12 @@
     .contact__container{
         row-gap: 48px;
     }
+
+    .certificate__box{
+        width: 350px;
+        left: 20px;
+    }
+
 
 }
 
@@ -184,6 +200,15 @@
     .modal__close{
         top: -9%;
         right: 0;
+    }
+
+    .skills__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .certificate__box{
+        width: 250px;
+        left: 0;
     }
 }
 

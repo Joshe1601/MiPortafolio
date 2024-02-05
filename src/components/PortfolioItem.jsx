@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Close from "../assets/close.svg";
 
-const Portafolio = ({img, title, details}) => {
+const Portafolio = ({img, title, icons, details}) => {
     const [modal, setModal] = useState(false);
 
     const toggleModal = () =>{
@@ -14,6 +14,12 @@ const Portafolio = ({img, title, details}) => {
 
             <div className="portfolio__hover" onClick={toggleModal}>
                 <h3 className="portfolio__title">{title}</h3>
+
+                <ul className="portfolio__icons">
+                    {icons.map(({icon}, index) => {
+                        return <li key={index} className="portfolio__icon">{icon}</li>
+                    })}
+                </ul>
             </div>
 
             {modal && (
